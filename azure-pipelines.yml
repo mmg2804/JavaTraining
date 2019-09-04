@@ -13,4 +13,4 @@ steps:
 - task: katalonTask@0
   inputs:
     version: '6.3.2'
-    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15'
+    executeArgs: '-browserType="Chrome" -retry=0 -statusDelay=15' -project="Project2"
